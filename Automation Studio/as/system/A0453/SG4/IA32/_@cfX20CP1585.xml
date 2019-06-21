@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<tree  xmlns:dt="urn:schemas-microsoft-com:datatypes">
+
+
+<n ID="DEVICES">
+<n ID="SWIOTIMER">
+<d ID="DDriverName" dt:dt="string">DdVxIotimPc</d>
+<d ID="DDriverType" dt:dt="ui4">11</d>
+<d ID="StartMode" dt:dt="ui4">1</d>
+</n>
+</n>
+<n ID="CYCLICSYSTEM">
+<d ID="TimerDevice" dt:dt="string">SWIOTIMER</d>
+</n>
+</tree>

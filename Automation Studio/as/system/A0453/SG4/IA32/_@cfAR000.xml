@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+
+<tree  xmlns:dt="urn:schemas-microsoft-com:datatypes">
+
+
+<n ID="DEVICES">
+<n ID="REMMEM">
+<d ID="DDriverName" dt:dt="string">DdNtNvSFile</d>
+<d ID="DDriverType" dt:dt="ui4">6</d>
+<d ID="StartMode" dt:dt="ui4">1</d>
+<d ID="DeviceParam" dt:dt="string"> /DEVICE=RPSHD /DEVICES=RPSHDS /PATH=REMMEM</d>
+<d ID="DeviceDependence" dt:dt="string">RPSHD</d>
+</n>
+<n ID="USERRAM">
+<d ID="DDriverName" dt:dt="string">DdNtNvSFile</d>
+<d ID="DDriverType" dt:dt="ui4">6</d>
+<d ID="StartMode" dt:dt="ui4">1</d>
+<d ID="DeviceParam" dt:dt="string"> /DEVICE=RPSHD /DEVICES=RPSHDS /PATH=USERRAM</d>
+<d ID="DeviceDependence" dt:dt="string">RPSHD</d>
+</n>
+<n ID="SWIOTIMER">
+<d ID="DDriverName" dt:dt="string">DdxxSWIOT</d>
+<d ID="DDriverType" dt:dt="ui4">11</d>
+<d ID="StartMode" dt:dt="ui4">1</d>
+</n>
+</n>
+<n ID="INADEVICES">
+<n ID="IF3">
+<d ID="FbDriverName" dt:dt="string">FbEthUdp</d>
+<d ID="Device" dt:dt="string">IF3</d>
+<d ID="StartMode" dt:dt="ui4">1</d>
+<d ID="InaNode" dt:dt="ui4">2</d>
+</n>
+</n>
+<n ID="INA2000">
+<d ID="Connections" dt:dt="ui4">4</d>
+<d ID="FastCommunication" dt:dt="ui4">1</d>
+</n>
+<n ID="BOOTPROPERTIES">
+<d ID="AfterReset" dt:dt="ui4">1</d>
+<d ID="AfterPowerFail" dt:dt="ui4">1</d>
+</n>
+<n ID="GLOBALPV">
+<d ID="VolatileSize" dt:dt="ui4">65535</d>
+<d ID="RemanentSize" dt:dt="ui4">4096</d>
+<d ID="PermanentSize" dt:dt="ui4">0</d>
+</n>
+<n ID="SYSTEMTABLES">
+<d ID="CyclicTasks" dt:dt="ui4">150</d>
+<d ID="BRModules" dt:dt="ui4">200</d>
+</n>
+<n ID="CYCLICSYSTEM">
+<d ID="SystemTick" dt:dt="ui4">10000</d>
+<d ID="TimerDevice" dt:dt="string">SWIOTIMER</d>
+
+<n ID="IDLETIME">
+<d ID="CycleTime" dt:dt="ui4">100000</d>
+<d ID="IdleTime" dt:dt="ui4">0</d>
+</n>
+</n>
+</tree>
